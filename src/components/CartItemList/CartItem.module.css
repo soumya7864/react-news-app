@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.containerDiv {
+  display: flex;
+  margin-bottom: 0px;
+  align-items: center;
+  min-width: 98%;
+  max-width: 98%;
+  cursor: pointer;
+}
+.modalContainer {
+  border-radius: 20px;
+}
+.newsContainer {
+  text-align: initial;
+  margin-left: 6px;
+}
+.newsContainer h2 {
+  margin-bottom: 0;
+  overflow: hidden;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.newsContainer h1 {
+  overflow: hidden;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.newsContainer p {
+  margin-top: 8px;
+  color: #707069;
+  letter-spacing: 1px;
+}
+.removeIcon {
+  cursor: pointer;
+  background-color: rgb(242, 248, 247);
+  border-radius: 50%;
+  padding: 8px;
+  margin-top: 40px;
+  height: 25px;
+  margin: 20px;
+}
+.item {
+  margin-right: 0;
+  margin-bottom: 0;
+  display: flex;
+  color: #223c4c;
+}
+.image {
+  background-color: #707069;
+  border-radius: 50%;
+  padding: 46px;
+  margin: 20px;
+}
+.innerContainerDiv {
+  min-width: 92%;
+  max-width: 92%;
+}

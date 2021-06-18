@@ -1,0 +1,15 @@
+.listViewCart {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+.horizontalViewCart {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+.paginate {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}

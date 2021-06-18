@@ -1,0 +1,136 @@
+.modalContainer {
+  display: flex;
+  border-radius: 30px;
+  border: none;
+  left: calc(0% - 0px);
+  top: 0%;
+  height: 100vh;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgb(197, 219, 240);
+}
+.cardContainer {
+  padding: 2rem;
+  padding-top: 4rem;
+}
+.readerSection {
+  margin-top: 0 !important;
+  display: flex;
+}
+.readerSection h1 {
+  margin-bottom: 8px;
+  margin-top: 2px;
+}
+.readerSection p {
+  padding-bottom: 12px;
+  margin-top: 0;
+}
+.readerContainerDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  margin-left: 20px;
+  margin-right: 27px;
+}
+.image {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-top: 16px;
+  margin-left: 36px;
+}
+.Feedback {
+  padding: 2rem;
+  text-align: initial;
+}
+.Feedback h1 {
+  margin-bottom: 6px;
+  font-size: 24px;
+  color: rgb(30, 31, 49);
+  letter-spacing: 1px;
+}
+.Feedback p {
+  padding-bottom: 12px;
+  margin-top: 0;
+  color: rgb(90, 90, 90);
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.control label {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+.control input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 58%;
+}
+.controlAddress {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.controlAddress label {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+.controlAddress input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 88%;
+  height: 50px;
+}
+.toggle {
+  color: #ffffff;
+  background: #5fc487;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+  width: 42%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  margin-top: 20px;
+  margin-bottom: 4rem;
+}
+.toggle:hover {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 50%);
+}
+.paddingDiv {
+  padding: 2rem;
+}
+.feedbackSection button {
+  width: 62%;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 16px;
+  background-color: rgb(248, 151, 151);
+  cursor: pointer;
+}
+.readerSection h1,
+.toggleSection h1,
+.feedbackSection h1 {
+  padding-top: 14px;
+}
+.feedbackSection button {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.formatListButton:hover,
+.SpeakerNotesIcon:hover {
+  background-color: #75da9d;
+}
+.listActive,
+.horizontalActive {
+  background-color: #75da9d;
+}
