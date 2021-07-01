@@ -6,8 +6,6 @@
 }
 .horizontalViewCart {
   list-style: none;
-  flex-wrap: wrap;
-  display: flex;
 }
 .paginate {
   padding-top: 2rem;
